@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Silkscreen&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: lightblue;
+    display: grid;
+    place-items: center;
+    font-family: "Raleway", sans-serif;
+}
+main.container {
+    width: 60vh;
+    height: 80vh;
+    padding: 30px;
+    background-color: white;
+    font-size: 2em;
+    color: hsl(0, 0%, 49%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.shadow {
+    background-color: aqua;
+    width: 40%;
+    height: 40%;
+    display: grid;
+    place-items: center;
+    /* you can make different timing for different properties */
+    transition: box-shadow 1s, transform 5s;
+    cursor: pointer;
+}
+
+#one:hover {
+    box-shadow: 5px 5px 5px black;
+    transform: scale(1.5);
+    font-family: "Silkscreen", cursive;
+    
+}
+
+#two:hover {
+    /* box-shadow: 5px -5px 10px hsl(0, 0%, 36%); */
+    
+}
+
+/* font elevation effect */
+#two h4 {
+    transition: all 1s;
+}
+
+#two:hover h4 {
+    transform: scale(1.2);
+    text-shadow: 5px 5px 5px rgb(56, 56, 56);
+}
+
+
+#three:hover {
+    box-shadow: 5px -5px 10px hsl(237, 100%, 30%),
+        5px -5px 20px hsl(237, 100%, 60%), 5px -5px 30px hsl(237, 100%, 80%);
+}
+
+#four:hover {
+    box-shadow: inset 5px -5px 10px 10px hsl(0, 0%, 36%);
+}
