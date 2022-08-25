@@ -1,0 +1,51 @@
+/* import two fonts you like here or in the html */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* how to center the main`? */
+    background-color: lightblue;
+    /* use a font on your page */
+}
+main.container {
+    width: 60vh;
+    height: 80vh;
+    padding: 30px;
+    background-color: white;
+    font-size: 2em;
+    color: hsl(0, 0%, 49%);
+    /* how to arrange children? */
+}
+
+.shadow {
+    background-color: aqua;
+    width: 40%;
+    height: 40%;
+    /* how to center the text`? */
+
+    /* add cursor pointer here or in each child? */
+}
+
+/* first try to make similar shadows,then make shadows that you like */
+/* make them triggerd by hover */
+/* add text shadow and text elevation effect */
+
+/* you can use :nth-child() instead of id if you want */
+#one {
+    /* use another font on a spesific element */
+}
+
+#two {
+}
+/* add text shadow and then text elevation effect with transform scale` */
+#tow h4{
+
+}
+#three {
+}
+
+#four {
+}
